@@ -1,0 +1,260 @@
+a {
+  color: #000000;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+#ull{
+  list-style: none;
+  color: #000000;
+  padding-left: 5%;
+}
+
+.menuOculto{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.menuOculto a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #888;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.menuOculto a:hover{
+  color: #ffffff;
+}
+
+
+.menuOculto .btnFechar{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.principal1{
+  transition: margin-left 0.5s;
+  margin-top: 0;
+  margin-left: 2%;
+  text-align: left;
+  width: 200px;
+  margin-top: 2%;
+}
+
+
+.principal1 img{
+  width: 200px;
+  border: 3px solid #000F1A;
+  border-radius: 5px;
+}
+
+
+.principal1 img:hover{
+  background-color: #000F1A;
+  transition: 0.6s;
+}
+
+
+@media screen and (max-height: 450px){
+  .menuOculto{
+      padding-top: 15px;
+  }
+  .menuOculto a{
+      font-size: 18px;
+  }
+}
+
+
+.informacao{
+  float: left;
+  width: 65%;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-bottom: 3%;
+  background-color: #e8eaeb;
+  padding: 1%;
+}
+
+
+.informacao h2{
+  background-color: #000F1A;
+  color: #ffffff;
+  padding: 2%;
+}
+
+
+.informacao h3{
+  color: #000000;
+  padding-left: 1%;
+}
+
+
+.informacao p, summary{
+  color: #000000;
+  text-align: justify;
+  padding: 10px;
+}
+
+
+.informacao figcaption{
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+
+#figura img{
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 3%;
+}
+
+
+.nave{
+  float: right;
+  width: 22%;
+  padding: 2%;
+  margin-right: 5%;
+  margin-top: 3%;
+  background-color: #000F1A; 
+}
+
+
+.nave aside ul li{
+  list-style: none;
+}
+
+
+.secção1{
+  display: block;
+}
+
+
+.unica{
+  font-size: 26px;
+}
+
+
+.unica1{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+
+.nave ul a, hr{
+  color: #ffffff; 
+}
+
+
+.Footer{
+  display: block;
+  align-content: center;
+  
+}
+
+
+#logos{
+  float: left;
+  margin-left: 32%;
+}
+
+
+#logoprojeto{
+  width: 400px;
+  margin-top: 5%;
+}
+
+
+#logoest{
+  width: 160px;
+  margin-top: 5%;
+}
+
+
+#fim{
+  float: none;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: black;
+  p{
+      text-decoration: none;
+  }
+  a{
+      text-decoration: underline;
+  }
+  hr{
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+}
+
+#link-topo{
+  text-decoration: none;
+  padding: 10px; /* 12px - todas laterais | 2px 2px 2px - cima    dir   baixo   esq. | 2px 2px 2px 2px cima   esq.   dir  baixo */
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+@media screen and (max-width: 900px){
+  #logoprojeto{
+    width: 200px;
+  }
+  #logoest{ 
+    width: 80px;
+  }
+  .unica li{
+    font-size: 12px;
+    text-align: center;
+  }
+  #indice{
+    display: none;
+  }
+}
+
+
+#indice:hover{
+  color: #00FFFF;
+}
+
+@media screen and (min-width: 320) and (max-width: 480){
+}
+@media screen and (min-width: 481) and (max-width: 768){
+}
+@media screen and (min-width: 769) and (max-width: 1200){
+}
+@media screen and (min-width: 1201) {
+}

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* tamanho da box  ->  border-box tem tudo incluido menos as margens, content-box não tem o padding, border e margin, padding-box não inclui border e margem*/
+  }
+  
+  :root {
+    --light: white;
+    --dark: #61A8Df;
+    --dark1: #000F1A;
+  }
+  
+  #theme-switcher {
+    display: none;
+  }
+  
+  #app-container {
+    height: 100%;
+    background: var(--light);
+    color: var(--dark);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* alinhar itens*/
+    justify-content: left; /* justificar o conteudo*/
+    min-height: 100vh;   
+  }
+  
+  
+  .theme-switcher-area {
+    border: 1px solid var(--light);
+    background: var(--dark);
+    border-radius: 2rem;
+    width: 4.5rem;
+    height: 2.5rem;
+    padding: 0.2rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+
+  }
+ 
+  
+  .theme-switcher-button {
+    position: relative;
+    display: block;
+    background: #f1aa02;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: 2px dashed var(--dark);
+    transition: 0.3s;
+    
+  }
+  
+  .theme-switcher-button::after {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    content: "";
+    background: var(--dark1);
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.3s;
+
+  }
+  
+  #theme-switcher:checked + #app-container .theme-switcher-button {
+      transform: translateX(100%);
+      border: none;
+
+  }
+  
+  #theme-switcher:checked + #app-container .theme-switcher-button::after {
+      opacity: 1;
+  }
+  
+  #theme-switcher:checked + #app-container {
+      background: var(--dark1);
+      color: var(--light);
+      h1{color: #ffffff;}
+      a{color: white;}
+      #inf1text{
+        background-color: #61A8Df;
+        border: 3px solid #61A8Df;
+      }
+      #infotext1 h1, p{color: #000F1A;}
+      .estudantes{
+        border: 3px solid #61A8Df;
+        background-color: #61A8Df;
+      }
+      #localizacao, #telefone, #email{
+        background-color: #61A8Df;
+      }
+      form {
+        background-color: #61A8Df;
+      }
+      .Footer, #fim{
+        background-color: #88c3f0;
+      }
+      #fim a{
+        color: #000000;
+      }
+      #link-topo{
+        z-index: 1;
+      }
+      .principal1 img{
+        border: 3px solid #ffffff;
+      }
+      .principal1 img:hover{
+        background-color: #ffffff;
+      }
+      .informacao h2{
+        background-color: #61A8Df;
+        color: #000000;
+      }
+      .nave{
+        background-color: #61A8Df; 
+      }
+      .nave ul a, hr{
+        color: #000000; 
+      }
+      #areas{
+        background-color: #61A8Df;
+      }
+      #areas h1{
+        color: #000F1A;
+      }
+      #foot1 , #foot2 {
+        a:hover,
+        a:focus {
+          color:#50e6ec;
+        }
+      }
+      .theme-switcher-area{
+        background-color: var(--dark1);
+      }
+      #contac a{
+        color: #000000;
+      }
+      cite a{
+        color: #000000;
+      }
+  }
+
+
+  @media screen and (min-width: 320) and (max-width: 480){
+  }
+  @media screen and (min-width: 481) and (max-width: 768){
+  }
+  @media screen and (min-width: 769) and (max-width: 1200){
+  }
+  @media screen and (min-width: 1201) {
+  }
+

@@ -1,0 +1,530 @@
+:root{
+    --color-black:#000F1A;
+}
+
+html{
+    scroll-behavior: smooth;/* */
+}
+a {
+    color: black; /* aplicar cor ao texto*/
+    text-decoration: none; /* remover linhas por debaixo das ancoras*/
+    font-family: sans-serif; /* tipo de letra */
+  }
+
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 600; /* tamanho da letra */
+	color: #222222;
+}
+
+
+.navbar {
+    margin-bottom: 0px; /* margem debaixo*/
+}
+
+.white, .white:hover, .white:focus
+{
+	color: #fff;
+	width: 100% !important; /* tamanho no eixo do x */
+}
+
+
+#banner{
+	background: url('/images/bg-banner.png') no-repeat fixed; /* imagem de fundo e fixado*/
+	background-size: cover; /* tamanho background - cover - cobre toda a secção ou container - coloca em toda a secção mas deixa a imagem na dimensão original e pode e aparecer a duplicar*/
+	min-height: 750px; /* altura minima */
+	position: relative; /* posição  - fixed, relative, absolute,*/
+}
+.bg-color{
+	background-color: #000F1A;
+    opacity: 0.70; /*transparencia*/
+	min-height: 750px;
+}
+.banner-info{
+	padding-top: 190px; /* margem superior interna do local */
+}
+.banner-logo img{
+	display: inline-block; /* decide como é colocado se em block ou inline */
+}
+.banner-text{
+	color: #fff;
+}
+.banner-text h1{
+	font-family: 'Candal', sans-serif;
+	font-size: 35px;
+	text-transform: uppercase; /* transformar o texto em letra grande*/
+	padding-bottom:15px; /* margem inferior interna do local */
+}
+.btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
+	margin-top: 30px; 
+	padding: 10px 20px;
+	font-size: 12px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	color: #000000;
+}
+.overlay-detail a i {
+    text-align: center; /* alinhar texto ao centro */
+    position: absolute;
+    bottom: 25px; /* afeta a posição vertical de um elemento posicionado */
+    font-size: 38px;
+    color: #fff;
+    margin: 0 auto; /* afeta as margens exteriores */
+}
+
+
+.img-responsive{
+    width: 350px;
+}
+
+.container{
+    text-align: center;
+    margin-bottom: 1%;
+    img{
+        margin-top: 8%;
+        margin-bottom: 0;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+    #seta img{
+        padding-top: 8%;
+    }
+}
+
+
+.inf1{
+    margin: 3%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.inf1 a img{
+    margin: 0;
+    margin-right: 2%;
+    padding: 0;
+}
+
+#inicio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inf1 h1{
+    margin-bottom: 5%;
+}
+#inf1text{
+    display: flex;
+    border: 3px solid var(--color-black);
+    border-radius: 15px;
+    background-color: var(--color-black);
+    margin: 15px
+}
+
+#inf1text a{
+    padding: 5px;
+}
+
+#inf1text h1{
+    padding: 5px;
+    margin-bottom: 0;
+    font-size: 34px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+#inf1text a p{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: justify;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+
+}
+
+
+#inf1text img{
+    margin-top: 0;
+    padding-top: 0;
+    width: 300px;
+    float: left; /* flutuar a div para a esq */
+    border-radius: 15px;
+}
+  
+
+#inf1text:hover{
+    transition: ease-in-out 0.1s; /* transição , ou seja pode aumentar, mudar de cor  - ease-in-out- especifica um efeito de transição com início e fim lentos*/
+    transform: scale(1.1); 
+}
+
+
+
+#team{
+    margin: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+}
+
+.estudantes{
+    float: left;
+    margin: 1.9%;
+    border: 3px solid var(--color-black);
+    border-radius: 5px;
+    width: 255px;
+}
+
+.estudantes img{
+    width: 250px;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.estudantes h1{
+    margin: 6px;
+    font-size: 22px;
+}
+
+.estudantes h2{
+    margin: 6px;
+    font-size: 20px;
+}
+
+.estudantes p{
+    margin-top: 10px;
+    margin: 6px;
+    color: black;
+}
+
+#linkedin{
+    width: 50px;
+}
+
+#Insta{
+    width: 30px;
+    margin-bottom: 4%;
+}
+
+#teamh1{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 34px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+#feedback{
+    margin: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+
+}
+
+
+#conth1{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 34px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.Footer{
+    display: block;
+    align-content: center;
+    
+}
+
+
+#logos{
+    float: left;
+    margin-left: 32%;
+  }
+  
+  
+  #logoprojeto{
+    width: 400px;
+    margin-top: 5%;
+  }
+  
+  
+  #logoest{
+    width: 160px;
+    margin-top: 5%;
+  }
+  
+
+#fim{
+    float: none;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: black;
+    p{
+        text-decoration: none;
+    }
+    a{
+        text-decoration: underline;
+    }
+    hr{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+
+
+#link-topo{
+    text-decoration: none;
+    padding: 10px; /* 12px - todas laterais | 2px 2px 2px - cima    dir   baixo   esq. | 2px 2px 2px 2px cima   esq.   dir  baixo */
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+.row{
+    padding: 0 20px;
+    display: block;
+    width: 80%;
+    margin: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+form {
+    width: 50%;
+    height: 450px;
+    box-shadow: 0 4px 8px #c9c9c9;
+    padding: 5%;
+    background-color: #e8eaeb;
+    float: left;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #333333;
+}
+
+label{
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+button{
+    background-color: #ffffff;
+    border: 1px solid #000F1A;
+    color: #000F1A;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 3%;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: #000F1A;
+    color: #ffffff;
+    cursor: pointer;  /* muda a seta do rato para uma mão */
+}
+
+input:focus, textarea:focus{
+    border-color: #000F1A !important;
+}
+
+input:invalid, textarea:invalid{
+    border-color: #a60606;
+}
+
+input:valid, textarea:valid{
+    border-color: #06a606;
+}
+
+@media screen and (max-width: 760px) {
+    form{
+        width: 100%;
+    }
+} /* media screen serve para que ele fique sempre certo, imagina diminuo a janela e este faz com que ele fique sempre em ordem com a janela*/
+@media screen and (max-width: 600px) {
+    button{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #logoprojeto{
+        width: 200px;
+    }
+    #logoest{ 
+        width: 80px;
+    }
+}
+.contactos{
+    margin: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    
+}
+
+#contac{
+    float: left;
+    flex-direction: none; /* como são os itens colocados no container row - em linha  column - em coluna*/
+    flex-wrap: nowrap; /* define se os itens são obrigados a ficar na mesma linha nowrap-sempre na mesma linha | wrap - pode passar para baixo */
+    padding: 50px;
+    width: 300px;
+    min-width: 29.2%;
+    height: 250px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    background-color: #e8eaeb;
+    color: #000000;
+    text-align: center; /* alinhar texto no eixo do x*/
+}
+
+#contac h2{
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    padding: 5%;
+}
+
+#contac img{
+    width: 70px;
+}
+
+#contac a{
+    width: 100%;
+    font-size: 12px;
+
+}
+
+#simbolo{
+    width: 200px;
+}
+
+
+.menuOculto{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1; /* define a posição, ou seja, se estáá frente de x div ou atras da outra*/
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden; /* quando passa dos limites, a parte que passa dos limites fica escondida - visible , hidden = clip, scrool = auto*/
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.menuOculto a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #888888;
+    display: block;
+    transition: 0.3s;
+}
+
+.menuOculto a:hover{
+    color: #ffffff;
+}
+
+.menuOculto .btnFechar{
+    position: absolute; /* sticky - fica sempre no ecrã, mesmo que andemos para baixo, tipo nav fixo, static - fica no lugar e não sai dali, relative - somos nós que decidimos a posição com o top, bottom, left, right no entanto imaginando 3 quandrados, se eu quiser mexer no 2 apenas esse se altera, absolute - igual ao relative no entanto os 3 quadrados, o 2 é colocado onde queremos mas o 3 passa para o lugar que era do 2*/
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.principal{
+    transition: margin-left 0.5s;
+    margin-top: 0;
+    margin-left: 2%;
+    text-align: left;
+    width: 200px;    
+}
+.principal img{
+    width: 200px;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+
+.principal img:hover{
+    background-color: #e8eaeb;
+    transition: 0.6s;
+}
+
+@media screen and (max-height: 450px){
+    .menuOculto{
+        padding-top: 15px;
+    }
+    .menuOculto a{
+        font-size: 18px;
+    }
+}
+#map{
+    float: left;
+    width: 50%;
+    height: 450px;
+    border: 3;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1300px) and (min-width:901px) {
+    #infotext1{
+        display: none;
+    }
+    #inf1text{
+        width: 502px;
+        height: 300px;
+    }
+    #inf1text img{
+        width: 485px;
+        height: 285px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width:0px) {
+    #infotext1{
+        display: none;
+    }
+    #inf1text{
+        width: 300px;
+        height: 300px;
+    }
+    #inf1text img{
+        width: 285px;
+        height: 285px;
+    }
+}
+
+
+
+@media screen and (min-width: 320) and (max-width: 480){
+}
+@media screen and (min-width: 481) and (max-width: 768){
+}
+@media screen and (min-width: 769) and (max-width: 1200){
+}
+@media screen and (min-width: 1201) {
+}

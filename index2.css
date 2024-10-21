@@ -1,0 +1,220 @@
+
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+}
+  
+  .menuOculto{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .menuOculto a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #888;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .menuOculto a:hover{
+    color: #ffffff;
+  }
+  
+  .menuOculto .btnFechar{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .principal1{
+    transition: margin-left 0.5s;
+    margin-top: 0;
+    margin-left: 2%;
+    text-align: left;
+    width: 200px;
+    margin-top: 2%;
+  }
+  .principal1 img{
+    width: 200px;
+    border: 3px solid #000F1A;
+    border-radius: 5px;
+  }
+  
+  .principal1 img:hover{
+    background-color: #000F1A;
+    transition: 0.6s;
+  }
+  
+  @media screen and (max-height: 450px){
+    .menuOculto{
+        padding-top: 15px;
+    }
+    .menuOculto a{
+        font-size: 18px;
+    }
+  }
+  
+
+.secção1{
+    margin: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 1000px;
+}
+
+
+
+#areas h1{
+    margin-left: 30%;
+    margin-top: -115px;
+    color: #ffffff;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#areas{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: #000F1A;
+}
+
+@media screen and (max-width:1300px) {
+  #areas{
+    width: 500px;
+    height: 150px;
+    text-align: justify;
+  }
+  #imagem1{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  #areas h1{
+    font-size: 15px;
+    text-align: end;
+    margin-right: 7%;
+    margin-top: -90px;
+  }
+  #texto2{
+    margin-right: 3% !important;
+  }
+}
+
+a{
+    cursor: pointer;
+}
+
+
+#areas p{
+    float: right;
+}
+
+#imagem1{
+    width: 320px;
+}
+
+#imagem2, #imagem3, #imagem4{
+    width: 320px;
+    object-fit: cover;
+    height: 150px;
+}
+
+
+#areas:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.1);
+}
+
+.Footer{
+  display: block;
+  align-content: center;
+  
+}
+
+#logos{
+  float: left;
+  margin-left: 32%;
+}
+
+#logoprojeto{
+  width: 400px;
+  margin-top: 5%;
+}
+
+#logoest{
+  width: 160px;
+  margin-top: 5%;
+}
+
+#fim{
+  float: none;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: black;
+  p{
+      text-decoration: none;
+  }
+  a{
+      text-decoration: underline;
+  }
+  hr{
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+}
+
+
+#link-topo{
+  text-decoration: none;
+  padding: 10px; /* 12px - todas laterais | 2px 2px 2px - cima    dir   baixo   esq. | 2px 2px 2px 2px cima   esq.   dir  baixo */
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+@media screen and (max-width: 900px){
+  #logoprojeto{
+      width: 200px;
+  }
+  #logoest{ 
+      width: 80px;
+  }
+}
+
+
+
+@media screen and (min-width: 320) and (max-width: 480){
+}
+@media screen and (min-width: 481) and (max-width: 768){
+}
+@media screen and (min-width: 769) and (max-width: 1200){
+}
+@media screen and (min-width: 1201) {
+}

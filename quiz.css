@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#Quiz{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5%;
+    text-align: center;
+}
+
+#Quiz img{
+    width: 200px;
+    margin-bottom: 2%;
+}
+
+input[type=button] {
+    width: 80%;
+    padding: 4%;
+    padding-bottom: 6%;    
+    text-align: center;
+}
+input{
+    font-family: Arial;
+    border-radius: 10px;
+    background-color: #61A8Df;
+    text-transform: uppercase;	
+    font-weight: bold;
+    font-size: 18;
+    text-align: center;
+    height: 30px;
+}
+
+#Numero{
+    width: 100%;
+}
+
+#Pergunta{
+    width: 100%;
+    padding: 5%;
+    height: 10%;          
+}
+
+@media screen and (max-width:1000px){
+    #Quiz{
+        width: 100%;
+        height: 100%;
+    }
+    #Quiz img{
+        width: 50%;
+        height: 50%;
+    }
+    #Quiz input{
+        width: 100%;
+        height: 100%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #logoprojeto{
+        width: 200px;
+    }
+    #logoest{ 
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 320) and (max-width: 480){
+}
+@media screen and (min-width: 481) and (max-width: 768){
+}
+@media screen and (min-width: 769) and (max-width: 1200){
+}
+@media screen and (min-width: 1201) {
+}

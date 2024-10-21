@@ -1,0 +1,48 @@
+ul li{
+    color: #000000;
+}
+
+details{
+    color: #000000;
+    line-height: 50px;
+}
+
+.secção1{
+    margin-bottom: 10%;
+}
+
+.secção1 ul{
+    background-color: #e8eaeb;
+    border: 3px solid #c0dcea;
+    box-shadow: 3px 3px 3px 3px #c0dcea;
+    padding: 2%;
+}
+
+.secção1 ul li{
+    list-style: none;
+    padding: 1% 2% 2% 1%;
+    text-align: center;
+}
+
+.secção1 ul li:hover{
+    background-color: #c0dcea;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 900px){
+    #logoprojeto{
+        width: 200px;
+    }
+    #logoest{ 
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 320) and (max-width: 480){
+}
+@media screen and (min-width: 481) and (max-width: 768){
+}
+@media screen and (min-width: 769) and (max-width: 1200){
+}
+@media screen and (min-width: 1201) {
+}
