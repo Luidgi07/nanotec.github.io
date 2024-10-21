@@ -1,0 +1,174 @@
+<!DOCTYPE html> 
+<!-- diz-nos o tipo de documento -->
+<html lang="pt">
+<!-- indica-nos o idioma principal da página -->
+    <head>
+        <meta charset="UTF-8"> 
+        <!--  -->
+        <meta name="description" content="Bem-vindo à MediWisdom, neste website abordamos temas como Telemedicina, e vamos focar em quatro áreas específicas que são a telecirurgia, a teleconsulta, a telemonitorização e a teletriagem." />
+        <meta name="keywords" content="MediWisdom, Telemedicina, Telecirugia, Telemonitorização, Teleconsulta, Teletriagem, Politécnico de Setúbal, LTB, Tecnologia Biomédica, 2023/2024 " />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!-- controlar a largura da área de visualização, e o nível inicial de Zoom -->
+        <title> Projeto Nanomateriais em Biomédica </title> 
+        <!-- defenir titulo da página-->
+        <script type="text/javascript" src="scripts/inicio.js"></script>
+        <!-- vai buscar o java do menu -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+        <link rel="stylesheet" href="styles/inicio.css">
+        <link rel="stylesheet" href="styles/mudarcss.css">
+        <!-- vai buscar os css -->
+        <link rel="icon" type="image/x-icon" href="/images/logo.png">
+        <!-- altera o icon na parte do separador -->
+    </head>
+
+    <body>
+        <section id="banner" class="banner">
+        <!-- section - agrupar conteudo semelhante; id - identificador único para um elemtento especifico da pagina, class - aplicado a vários elementos na página-->
+            <div class="bg-color">
+            <!-- div - blocos de conteúdo para estilizar -->
+                <aside>
+                <!--Representa algo relacionado com o conteúdo principal da pag., complementa ou ajuda-->
+                    <ul id="menuOculto" class="menuOculto">
+                    <!-- lista não ordenada-->
+                        <li><a href="javascript: void(0)" class="btnFechar" onclick="fecharNav()">&times;</a></li>
+                        <!-- li - item da lista; a - ancora usa href para colocar o link void(0) - retorna undefined, é usado em links ou botão que possui um comportamento definido por javascript-->
+                        <li><a href="/inicio.html">Home</a></li>
+                        <li><a href="#conth1">Contactos</a></li>
+                        <li><a href="#teamh1">Team</a></li>
+                        <li><a href="https://luidgi07.github.io/teste.github.io/telemedicina_projeto_final.pdf" target=”_blank”>Relatório</a></li>
+                        <!-- target - quero que fique na mesma página, ou vá para uma em branco-->
+                    </ul>
+                </aside>
+                <nav>
+                <!-- navegação - links agrupados num menu-->
+                    <div class="container">
+                        <div class="principal">
+                            <span onclick="abrirNav()"><img id="imagem" src="/images/logo.png" alt="Logotipo"></span>
+                            <!-- ao contrário da div que quebra a linha a span não quebra-->
+                        </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <img src="/images/logo.png" alt="Logotipo" class="img-responsive">
+                    <!-- imagem -->
+                    <h1 class="white">Projeto Nanomateriais em Biomédica</h1>
+                    <!-- titulo -->
+                    <a href="#conth1" class="btn btn-appoint">Contacte-nos</a>
+                    <br>
+                    <!-- quebra de linha -->
+                    <a id="seta" href="#inicio"><img src="images/seta.png" alt="seta"></a>
+                </div>
+            </div>
+            </section>
+                <div id="mudarcss">
+                    <input type="checkbox" id="theme-switcher">
+                    <!-- campos de entrada onde os utilizadores inserem dados, neste caso escolhe se o checkbox está 'on ou 'off -->
+                    <div id="app-container">
+                        <div class="theme-switcher-area">
+                            <label for="theme-switcher" class="theme-switcher-button"></label>
+                            <!-- define rótulos para os elementos de entrada-->
+                        </div>
+                        <div class="inf1">
+                            <h1 id="inicio">Os nossos temas:</h1>
+                            <a href="/documents/index1.html"> 
+                                <div id="inf1text">
+                                <img src="images/pulmao.png" alt="Cancro do pulmão" id="info1img">
+                                    <div id="infotext1">
+                                        <h1>Cancro do Pulmão</h1>
+                                        <p>
+                                            Os tumores que têm início no pulmão, dividem-se em dois grupos principais: 
+                                            cancro do pulmão de não-pequenas células e cancro do pulmão de pequenas células, 
+                                            dependendo ...
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="inf1text">
+                                <a href="/documents/index2.html">
+                                    <img src="images/pulmao1.png" alt="areas" id="info2img">
+                                    <div id="infotext1">
+                                        <h1>Nanotecnologias no Tratamento do Cancro do Pulmão</h1>
+                                        <p>
+                                            As Nanotecnologias trazem imensos pontos positivos, mas também trazem negativos, como ...
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>  
+                        </div>
+                        <h1 id="teamh1"> Equipa </h1>
+                        <section id="team">
+                            <div class="estudantes">
+                                <img src="images/Luis.jpg" alt="Luís Correia">
+                                <h1>LUÍS CORREIA</h1>
+                                <h2>Nº 202200162</h2>
+                                <p>Estudante de LTB no Politécnico de Setúbal</p>
+                                <a href="https://www.linkedin.com/in/lu%C3%ADs-correia-3bb677279/" target="_blank"><img id="linkedin" src="/images/linkedin.png" alt="linkedin Magda Al Awad"></a>
+                                <a href="https://www.instagram.com/luiscorreia_.03/" target="_blank"><img id="Insta" src="/images/insta.png" alt="instagram Magda Al Awad"></a>
+                            </div>
+                            <div class="estudantes">
+                                <img src="images/Raquel.jpg" alt=" Luís Correia">
+                                <h1>RAQUEL CLEMENTE</h1>
+                                <h2>Nº 202200102</h2>
+                                <p>Estudante de LTB no Politécnico de Setúbal</p>
+                                <a href="https://www.linkedin.com/in/raquel-clemente-253ba42b5/" target="_blank"><img id="linkedin" src="/images/linkedin.png" alt="linkedin Luís Correia"></a>
+                                <a href="https://www.instagram.com/raquelclementee?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img id="Insta" src="/images/insta.png" alt="Instagram Luís Correia"></a>
+                            </div>
+                        </section>
+                        <h1 id="conth1">Contactos</h1>
+                        <section class="contactos">
+                            <div id="contac">
+                                <img src="images/casa.png" alt="local">
+                                <h2>Localização</h2>
+                                <a target="_blank" href="https://www.google.com/maps/place/Instituto+Polit%C3%A9cnico+de+Set%C3%BAbal/@38.522082,-8.838784,17z/data=!3m1!4b1!4m6!3m5!1s0xd1937b2c60f8f47:0xa0df10aa0caa2efa!8m2!3d38.522082!4d-8.838784!16s%2Fg%2F12245zfg?entry=ttu">Campus do IPS - Estefanilha, 2910-761 Setúbal</a>
+                            </div>
+                            <div id="contac">
+                                <img src="images/telefone.png" alt="telefone">
+                                <h2>Telefone</h2>
+                                <a href="">+351 900 000 000</a>
+                            </div>
+                            <div id="contac">
+                                <img src="images/email.png" alt="email">
+                                <h2>Email</h2>
+                                <a href="mailto:202200162@estudantes.ips.pt">cancer.nanotechnologies.07@gmail.com</a>
+                                <!-- malito - vai abrir uma janela no outlook com o email na parte de envio-->
+                            </div>
+                        </section>
+                        <section class="row">
+                            <form action="https://api.staticforms.xyz/submit" method="post" class="card">
+                            <!-- action - define o url para onde são enviados os dados -->
+                                <input type="hidden" name="accessKey" value="2f189ea3-2b52-492d-a41f-d1fbf252aeef">
+                                <!-- campo oculto com a chave necessária para enviar o formulario-->
+                                <input type="hidden" name="redirectTo" value="http://localhost:8888/inicio.html">
+                                <!-- local para onde será redirecionado logo após o envio do form -->
+                                <label for="inputnome">Nome:</label>
+                                <input type="text" id="inputnome" name="name" required maxlength="25" minlength="2">
+
+                                <label for="inputemail">Email:</label>
+                                <input type="text" id="inputemail" name="email" required maxlength="50">
+
+                                <label for="textareamensagem">Mensagem:</label>
+                                <textarea name="message" id="textareamensagem" required maxlength="300"></textarea>
+                                
+                                <button>Enviar Mensagem</button>
+                            </form>
+                            <div id="map">
+                                <iframe title="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d398246.41604181356!2d-9.75781501093751!3d38.75681980000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1937b2c60f8f47%3A0xa0df10aa0caa2efa!2sInstituto%20Polit%C3%A9cnico%20de%20Set%C3%BAbal!5e0!3m2!1spt-PT!2spt!4v1718111217609!5m2!1spt-PT!2spt" style="border:3;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <!--incorporar html dentro do html atual-->
+                            </div>
+                        </section>
+                        <a href="#" id="link-topo" data-anima="scroll"><img src="/images/icons8-estetoscópio-64.png" alt="voltar ao topo" width="50px"></a>
+                        <!-- simbolo que vai fazer com que volte ao inicio-->
+                        <div class="Footer">
+                            <hr>
+                            <div id="logos">
+                                <img id="logoprojeto" src="/images/logo.png" alt="logotipo">
+                                <a href="https://www.estsetubal.ips.pt/" target="_blank"><img id="logoest" src="/images/logo-ESTS.png" alt="logo-ESTS"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <p id="fim"><a href="/about.html">About</a> © LTB - Tecnologia de Setúbal • Telemedicina • 2023/2024</p>
+                        </div>
+                    </div>
+        </div>
+    </body>
+</html>

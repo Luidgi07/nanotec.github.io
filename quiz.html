@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bem-vindo à MediWisdom, neste website abordamos temas como Telemedicina, e vamos focar em quatro áreas específicas que são a telecirurgia, a teleconsulta, a telemonitorização e a teletriagem." />
+    <meta name="keywords" content="MediWisdom, Telemedicina, Telecirugia, Telemonitorização, Teleconsulta, Teletriagem, Politécnico de Setúbal, LTB, Tecnologia Biomédica, 2023/2024 " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Projeto Telemedicina
+    </title>
+    <script type="text/javascript" src="/scripts/quizz.js"></script>
+    <script type="text/javascript" src="/scripts/inicio.js"></script>
+    <link rel="stylesheet" href="/styles/index2.css">
+    <link rel="stylesheet" href="/styles/mudarcss.css">
+    <link rel="stylesheet" href="/styles/quiz.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+<body id="topo" onload="ProximaPergunta2(0)">
+    <div id="mudarcss">
+        <input type="checkbox" id="theme-switcher">
+        <div id="app-container">
+            <div class="theme-switcher-area">
+                <label for="theme-switcher" class="theme-switcher-button">
+                    </label>
+            </div>
+            <div class="header">
+                <aside>
+                    <ul id="menuOculto" class="menuOculto">
+                        <a href="javascript: void(0)" class="btnFechar" onclick="fecharNav()">&times;</a>
+                        <a href="/inicio.html">Home</a>
+                        <a href="/inicio.html#conth1">Contactos</a>
+                        <a href="/inicio.html#teamh1">Team</a>
+                        <a href="/quiz.html">Quiz</a>
+                        <a href="/relatorio.html" target=”_blank”>Relatório</a>
+                    </ul>
+                </aside>
+              <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="principal1">
+                        <span onclick="abrirNav()"><img id="imagem" src="/images/logo.png"></span>
+                    </div>
+                </div>
+              </nav>  
+            </div>
+            <div id="Quiz">
+                <img src="/images/QUIZZ.png" alt="quiz">
+                <br>
+                <INPUT TYPE="TEXT" NAME="Numero" VALUE="0" ID="Numero" disabled/>
+                &nbsp
+                <INPUT TYPE="TEXT" NAME="Pergunta" VALUE="Pergunta 0" ID="Pergunta" disabled/>
+                <br><br><br><br>
+
+                <div id="Quiz2">
+                </div>
+
+                <INPUT TYPE="TEXT" NAME="Acertos" VALUE="Acertos" ID="Acertos" disabled 
+                style="width:100px"/>
+                &nbsp
+                <INPUT TYPE="TEXT" NAME="TotalAcertos" VALUE="0" ID="TotalAcertos" disabled 
+                style="width:30px"/>
+            </div>
+                
+            <a href="#" id="link-topo" data-anima="scroll"><img src="/images/icons8-estetoscópio-64.png" alt="voltar ao topo" width="50px"></a>
+            <div class="Footer">
+                <hr>
+                <div id="logos">
+                    <img id="logoprojeto" src="/images/logo.png" alt="">
+                    <a href="https://www.estsetubal.ips.pt/" target="_blank"><img id="logoest" src="/images/logo-ESTS.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <p id="fim"><a href="/about.html">About</a> © LTB - Tecnologia de Setúbal • Telemedicina • 2023/2024</p>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
+    
