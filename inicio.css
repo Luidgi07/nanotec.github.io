@@ -119,7 +119,8 @@ h1, h2, h3, h4, h5, h6
     display: flex;
     border: 3px solid var(--color-black);
     border-radius: 15px;
-    background-color: var(--color-black);
+    background-color: rgb(255,192,203);
+    color: black;
     margin: 15px
 }
 
