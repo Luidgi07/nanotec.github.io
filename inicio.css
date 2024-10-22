@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6
 
 
 #banner{
-	background: url('/images/bg-banner.png') no-repeat fixed; /* imagem de fundo e fixado*/
+	background: url('bg-banner.png') no-repeat fixed; /* imagem de fundo e fixado*/
 	background-size: cover; /* tamanho background - cover - cobre toda a secção ou container - coloca em toda a secção mas deixa a imagem na dimensão original e pode e aparecer a duplicar*/
 	min-height: 750px; /* altura minima */
 	position: relative; /* posição  - fixed, relative, absolute,*/
