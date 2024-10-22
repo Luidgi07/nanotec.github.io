@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6
     margin-bottom: 0;
     font-size: 34px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
+    color: black;
 }
 
 #inf1text a p{
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6
     padding-left: 10px;
     padding-right: 20px;
     text-align: justify;
-    color: #ffffff;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
 
