@@ -167,7 +167,9 @@ h1, h2, h3, h4, h5, h6
     transform: scale(1.1); 
 }
 
-
+.infotext1 p{
+	font-size: 50;
+}
 
 #team{
     margin: 3%;
