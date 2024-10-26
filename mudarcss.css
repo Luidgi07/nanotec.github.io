@@ -4,7 +4,11 @@
     box-sizing: border-box; /* tamanho da box  ->  border-box tem tudo incluido menos as margens, content-box não tem o padding, border e margin, padding-box não inclui border e margem*/
   }
   
-
+  :root {
+    --light: white;
+    --dark: #61A8Df;
+    --dark1: #000F1A;
+  }
   
   #theme-switcher {
     display: none;
@@ -73,7 +77,9 @@
   
   #theme-switcher:checked + #app-container {
       background: var(--dark1);
-
+      color: var(--light);
+      h1{color: #ffffff;}
+      a{color: white;}
       #inf1text{
         background-color: rgb(255, 237, 240);
         border: 3px solid #61A8Df;
@@ -105,17 +111,17 @@
         background-color: #ffffff;
       }
       .informacao h2{
-        background-color: #61A8Df;
+        background-color: rgb(255, 237, 240);
         color: #000000;
       }
       .nave{
-        background-color: #61A8Df; 
+        background-color: rgb(255, 237, 240); 
       }
       .nave ul a, hr{
         color: #000000; 
       }
       #areas{
-        background-color: #61A8Df;
+        background-color: rgb(255, 237, 240);
       }
       #areas h1{
         color: #000F1A;
