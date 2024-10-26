@@ -75,22 +75,22 @@
       background: var(--dark1);
 
       #inf1text{
-        background-color: #61A8Df;
+        background-color: rgb(255, 237, 240);
         border: 3px solid #61A8Df;
       }
       #infotext1 h1, p{color: #000F1A;}
       .estudantes{
         border: 3px solid #61A8Df;
-        background-color: #61A8Df;
+        background-color: rgb(255, 237, 240);
       }
       #localizacao, #telefone, #email{
-        background-color: #61A8Df;
+        background-color: rgb(255, 237, 240);
       }
       form {
-        background-color: #61A8Df;
+        background-color: rgb(255, 237, 240);
       }
       .Footer, #fim{
-        background-color: #88c3f0;
+        background-color: rgb(255, 237, 240);
       }
       #fim a{
         color: #000000;
