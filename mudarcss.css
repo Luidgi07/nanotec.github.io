@@ -90,13 +90,13 @@
         background-color: rgb(255,192,203);
       }
       #localizacao, #telefone, #email{
-        background-color: rgb(255, 237, 240);
+        background-color:rgb(255,192,203);
       }
       form {
-        background-color: rgb(255, 237, 240);
+        background-color: rgb(255,192,203);
       }
       .Footer, #fim{
-        background-color: rgb(255, 237, 240);
+        background-color: rgb(255,192,203);
       }
       #fim a{
         color: #000000;
@@ -136,7 +136,7 @@
         background-color: var(--dark1);
       }
       #contac{
-          background-color: rgb(255, 237, 240);
+          background-color: rgb(255,192,203);
       }
       #contac a{
         color: #000000;
