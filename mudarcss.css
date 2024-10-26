@@ -135,6 +135,9 @@
       .theme-switcher-area{
         background-color: var(--dark1);
       }
+      #contac{
+          background-color: rgb(255, 237, 240);
+      }
       #contac a{
         color: #000000;
       }
