@@ -138,7 +138,7 @@ html{
   padding: 2%;
   margin-right: 5%;
   margin-top: 3%;
-  background-color: #000F1A; 
+  background-color: rgb(196, 112, 147); 
 }
 
 
@@ -246,7 +246,7 @@ html{
 
 
 #indice:hover{
-  color: #00FFFF;
+  color: rgb(92, 18, 49);
 }
 
 @media screen and (min-width: 320) and (max-width: 480){
