@@ -81,13 +81,13 @@
       h1{color: #ffffff;}
       a{color: white;}
       #inf1text{
-        background-color: rgb(255, 237, 240);
-        border: 3px solid #61A8Df;
+        background-color: rgb(255,192,203);
+        border: 3px solid rgb(255,192,203);
       }
       #infotext1 h1, p{color: #000F1A;}
       .estudantes{
-        border: 3px solid #61A8Df;
-        background-color: rgb(255, 237, 240);
+        border: 3px solid rgb(255,192,203);
+        background-color: rgb(255,192,203);
       }
       #localizacao, #telefone, #email{
         background-color: rgb(255, 237, 240);
