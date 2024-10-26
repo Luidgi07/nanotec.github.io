@@ -4,11 +4,7 @@
     box-sizing: border-box; /* tamanho da box  ->  border-box tem tudo incluido menos as margens, content-box não tem o padding, border e margin, padding-box não inclui border e margem*/
   }
   
-  :root {
-    --light: white;
-    --dark: #61A8Df;
-    --dark1: #000F1A;
-  }
+
   
   #theme-switcher {
     display: none;
