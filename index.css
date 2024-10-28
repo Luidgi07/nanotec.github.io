@@ -74,6 +74,7 @@ button{
 @media screen and (min-width: 0) and (max-width: 999){
     #titulo{
         font-size:20px;
+        -webkit-text-stroke: 2px #61A8DF;
     }
     #button2{
         width: 150px;
