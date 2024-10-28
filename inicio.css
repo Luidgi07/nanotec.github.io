@@ -524,6 +524,9 @@ iframe{
         width: 285px;
         height: 285px;
     }
+	#map{
+		width: 100%
+	}
 }
 
 
