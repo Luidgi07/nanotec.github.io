@@ -14,16 +14,7 @@ html {
     justify-content: center;
 }
 
-#titulo {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-    padding: 0;
-    line-height: 1;
-    font-weight: bold;
-    -webkit-text-stroke: 3px #61A8DF;
-    text-align: center;
-}
+
 
 .blue {
     color: #005a9e;
@@ -67,31 +58,36 @@ button a {
     justify-content: center;
 }
 
+#titulo {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px; /* Tamanho fixo para telas grandes */
+    padding: 0;
+    line-height: 1.2;
+    font-weight: bold;
+    -webkit-text-stroke: 3px #61A8DF;
+    text-align: center;
+    max-width: 90vw; /* Limita a largura para não ultrapassar a tela */
+    overflow-wrap: break-word; /* Permite quebra de linha se necessário */
+}
+
+/* Ajuste para tablets e telas médias */
 @media (max-width: 768px) {
     #titulo {
-        font-size: 40px;
-        -webkit-text-stroke: 2px #61A8DF;
-    }
-    #button2, #button1 {
-        width: 150px;
+        font-size: 7vw; /* Ajusta o tamanho da fonte em telas médias */
+        -webkit-text-stroke: 0.08em #61A8DF;
     }
 }
 
+/* Ajuste para dispositivos móveis */
 @media (max-width: 480px) {
     #titulo {
-        font-size: 30px;
+        font-size: 6vw; /* Ajusta o tamanho da fonte em telas pequenas */
+        -webkit-text-stroke: 0.05em #61A8DF;
     }
-    #texto {
-        font-size: 16px;
-        width: 100%;
-    }
-    button {
-        font-size: medium;
-        height: 50px;
-        width: 100%;
-    }
-    #botao {
-        flex-direction: column;
-        align-items: center;
-    }
+}
+
 }
