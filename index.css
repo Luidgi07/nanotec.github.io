@@ -73,10 +73,13 @@ button{
 
 @media screen and (min-width: 0) and (max-width: 999){
     #titulo{
-        font-size:40px;
+        font-size:20px;
     }
     #button2{
-        width: 200px;
+        width: 150px;
+    }
+    #button1{
+        width: 50px;
     }
 }
 
