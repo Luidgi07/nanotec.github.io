@@ -1,94 +1,97 @@
-html{
+html {
     background-image: url(fundo.png);
+    background-size: cover;
 }
 
-#local{
-    position: fixed;
-    bottom: 0;
-    margin: 90px;
-    margin-left: 40px;
+#local {
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#titulo{
+#titulo {
     color: white;
-    font-family: url(/font-family/maiden.ttfS);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
     padding: 0;
-    line-height: 2%;
+    line-height: 1;
     font-weight: bold;
     -webkit-text-stroke: 3px #61A8DF;
+    text-align: center;
 }
 
-.blue{
+.blue {
     color: #005a9e;
 }
 
-#texto1{
-    line-height: 2%;
+#texto1 {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    text-align: center;
 }
 
-#texto{
+#texto {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 0;
-    width: 600px;
+    padding-top: 10px;
+    width: 90%;
     font-size: 20px;
     text-align: justify;
+    max-width: 600px;
 }
-button{
+
+button {
     background-color: #61A8DF;
     font-size: larger;
     height: 60px;
     border-radius: 10px;
-
+    border: none;
+    cursor: pointer;
 }
 
-#button1{
-    width: 100px;
-    a{
-        text-decoration: none;
-        color: black;
-    }
-    
-}
-#button2{
-    width: 300px;
-    a{
-        text-decoration: none;
-        color: black;
-    }
+button a {
+    text-decoration: none;
+    color: black;
 }
 
-#botao{
+#botao {
     display: flex;
-    float: left;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#botao1{
-    margin-right: 20px;
-}
-
-@media screen and (min-width: 0) and (max-width: 999){
-    #titulo{
-        font-size:20px;
+@media (max-width: 768px) {
+    #titulo {
+        font-size: 40px;
         -webkit-text-stroke: 2px #61A8DF;
     }
-    #button2{
+    #button2, #button1 {
         width: 150px;
-    }
-    #button1{
-        width: 50px;
     }
 }
 
-@media screen and (min-width: 320) and (max-width: 480){
-}
-@media screen and (min-width: 481) and (max-width: 768){
-}
-@media screen and (min-width: 769) and (max-width: 1200){
-}
-@media screen and (min-width: 1201) {
+@media (max-width: 480px) {
+    #titulo {
+        font-size: 30px;
+    }
+    #texto {
+        font-size: 16px;
+        width: 100%;
+    }
+    button {
+        font-size: medium;
+        height: 50px;
+        width: 100%;
+    }
+    #botao {
+        flex-direction: column;
+        align-items: center;
+    }
 }
